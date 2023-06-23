@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-*/Library/
-*/Temp/
-*/Obj/
-*/Build/
-*/Builds/
-*/Logs/
-*/UserSettings/
+Basket Flip/Library/
+Basket Flip/Temp/
+Basket Flip/Obj/
+Basket Flip/Build/
+Basket Flip/Builds/
+Basket Flip/Logs/
+Basket Flip/UserSettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -73,3 +73,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 .fake
+Basket Flip/Assets/Plugins/Editor/VSCode.cs
+Basket Flip/Assets/Plugins/Editor/VSCode.cs.meta
