@@ -16,8 +16,9 @@ public class BasketController : MonoBehaviour {
     }
 
     void Update(){
-        rb.AddForce(force: Vector3.forward * ForwardSpeed);
-        if ((Input.GetKeyDown(key: KeyCode.Space)) & (rb.position.y <= 0.5) ){
+        rb.AddForce(force: Vector3.forward * ForwardSpeed, mode: ForceMode.Impulse);
+        Debug.Log(message: rb.position);
+        if ((Input.GetKeyDown(key: KeyCode.Space)) & (rb.position.y <= 3) ){
             rb.AddForce(force: Vector3.up * JumpForce, mode: ForceMode.Impulse);
             Debug.Log(message: "Added Force");
         }
